@@ -1,0 +1,65 @@
+{
+"Ulam":[
+    {
+        "name": "Adobo",
+        "description": "Protein Source: Adobo provides a good source of protein, which is essential for building and repairing tissues",
+        "price": "₱65.00 per order",
+        "image": "adobo.jpg"
+    },
+    {
+        "name": "Pinakbet",
+        "description": "Pinakbet is a nutritious dish packed with a variety of vegetables, offering vitamins, minerals, and dietary fiber.",
+        "price": "₱50 per order",
+        "image": "pinakbet.jpg"
+    },
+    {
+        "name": "Chop Suey",
+        "description": "helps regulate the heartbeat and muscles in functioning.",
+        "price": "₱50 per order",
+        "image": "chop suey.jpg"
+    },
+    {
+        "name": "Pork Giniling",
+        "description": "Rich in vitamins and minerals (66475.4%/cal) - a good source of Vitamin K, Vitamin C and Iron.",
+        "price": "₱80 per order",
+        "image": "pork giniling.jpg"
+    },
+    {
+        "name": "Paksiw na Lechon",
+        "description": " benefits of Paksiw Na Lechon? Paksiw na lechon is not only delicious, but it is also full of nutrients.",
+        "price": "₱80 per order",
+        "image": "paksiw na lechon.jpg"
+    },
+    {
+        "name": "Caldereta",
+        "description": "Caldereta dish is rich in vitamin A that helps maintain healthy skin and normal vision and also plays a role in immunity.",
+        "price": "₱90 per order",
+        "image": "caldereta.jpg"
+    },
+    {
+        "name": "Sinigang",
+        "description": "Sinigang na baboy is healthy because it can also help in boosting your immune system. It provides Vitamin C from the tamarind base, treating constipation (since it is rich in fiber). It also boosts energy with protein.",
+        "price": "₱75 per order",
+        "image": "sinigang.jpg"
+    },
+    {
+        "name": "Menudo",
+        "description": "Menudo contains essential nutrients, including vitamins A and C, iron, calcium, and protein. ",
+        "price": "₱100 per order",
+        "image": "menudo.jpg"
+    },
+        {
+        "name": "Atay balunan",
+        "description": "benefits of atay balunan is to high protein ",
+        "price": "₱75 per order.",
+        "image": "atay balunan.jpg"
+    },
+        {
+        "name": "Paksiw na bangus",
+        "description": "benefits of paksiw na bangus is to source of protein.",
+        "price": "₱80 per order",
+        "image": "paksiw na bangus.jpg"
+    }
+]
+}
+
