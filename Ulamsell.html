@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KEVS Online ulam sell</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+        }
+        h1 {
+            margin: 20px 0;
+            font-size: 2em;
+            border-bottom: 1px dotted #000;
+        }
+        .container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+        .ulam-card {
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            margin: 10px;
+            padding: 10px;
+            width: 200px;
+            text-align: center;
+        }
+        .ulam-card img {
+            max-width: 100%;
+            border-radius: 8px;
+        }
+        .ulam-card h3 {
+            margin: 10px 0;
+        }
+        .ulam-card p {
+            color: #555;
+        }
+        .price {
+            font-weight: bold;
+            color: #e74c3c;
+        }
+    </style>
+</head>
+<body>
+    <h1>KEVS Online ulam sell</h1>
+    <div class="container" id="ulam-container"></div>
+
+    <script>
+        // Fetch data from the JSON file
+        fetch('MyUlam.json')
+            .then(response => response.json()) // Ensure to return the parsed JSON
+            .then(data => {
+                const container = document.getElementById('ulam-container');
+                
+                // Render each fruit card
+                data.Ulam.forEach(ulam => { // Access 'ulam' array from data
+                    const card = document.createElement('div');
+                    card.className = 'ulam-card';
+                    card.innerHTML = `
+                        <img src="${ulam.image}" alt="${ulam.name}">
+                        <h3>${ulam.name}</h3>
+                        <p>${ulam.description}</p>
+                        <p class="price">${ulam.price}</p>
+                    `;
+                    container.appendChild(card);
+                });
+            })
+            .catch(error => {
+                console.error('Error fetching the data:', error);
+            });
+    </script>
+</body>
+</html>
